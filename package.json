@@ -1,7 +1,8 @@
 {
-  "name": "mx-study",
+  "name": "btc-ssr",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://btc-ssr.vercel.app",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
