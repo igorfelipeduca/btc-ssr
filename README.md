@@ -1,4 +1,12 @@
+# Learning Bitcoin - A server-side rendered website
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Features
+
+- Server-side rendering
+- Revalidation
+- SEO
 
 ## Getting Started
 
@@ -31,6 +39,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To deploy this project on Vercel, you can follow the [Vercel documentation](https://vercel.com/docs/concepts/nextjs/deployments).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Sonner](https://github.com/igorfelipeduca/sonner)
+
+## Contributing
+
+If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
