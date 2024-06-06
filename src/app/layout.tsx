@@ -7,20 +7,28 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Bitcoin",
-  description: "Bitcoin learning - Server-side rendering | Igor Duca",
+  description: "Learn all about Bitcoin - Server-side rendering | Igor Duca",
   openGraph: {
     title: "Bitcoin",
-    description: "Bitcoin learning - Server-side rendering | Igor Duca",
-    url: "https://bitcoin.igorfelipeduca.com",
+    description: "Learn all about Bitcoin - Server-side rendering | Igor Duca",
+    url: "https://btc-ssr.vercel.app/en",
     images: [
       {
-        url: "/og.png",
+        url: "https://i.ibb.co/YcBdyJ0/og.png",
         width: 1200,
         height: 630,
         alt: "Bitcoin",
       },
     ],
-    siteName: "Bitcoin",
+    siteName: "Bitcoin Learning",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@ducaswtf",
+    title: "Bitcoin",
+    description: "Learn all about Bitcoin - Server-side rendering | Igor Duca",
   },
 };
 
