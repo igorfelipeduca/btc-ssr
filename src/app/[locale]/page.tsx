@@ -143,7 +143,7 @@ export default async function InfoPage({
                 <a
                   className="py-2 px-4 rounded-lg bg-zinc-900 border border-zinc-700 text-center w-full text-sm text-zinc-300 transition-all duration-150 hover:bg-zinc-800 cursor-default"
                   key={index}
-                  href={`https://www.coingecko.com/en/coins/${ticker.id}`}
+                  href={`https://www.coingecko.com/en/coins/${ticker.coin_id}`}
                   target="_blank"
                   rel="noreferrer"
                 >
