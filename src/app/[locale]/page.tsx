@@ -131,7 +131,9 @@ export default async function InfoPage({
             Tickers
           </h1>
 
-          <h3>Click on the ticker to go to the trading page</h3>
+          <h3 className="text-zinc-600">
+            Click on the ticker to go to the trading page
+          </h3>
 
           <div className="mt-8">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
