@@ -5,6 +5,8 @@ import { Toaster } from "sonner";
 
 const inter = Inter({ subsets: ["latin"] });
 
+export const revalidate = 60;
+
 export const metadata: Metadata = {
   title: "Bitcoin",
   description: "Learn all about Bitcoin - Server-side rendering | Igor Duca",
