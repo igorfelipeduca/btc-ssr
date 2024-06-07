@@ -1,7 +1,5 @@
 async function getData() {
-  const res = await fetch("https://api.coingecko.com/api/v3/coins/bitcoin", {
-    next: { revalidate: 60, tags: ["BTC"] },
-  });
+  const res = await fetch("https://api.coingecko.com/api/v3/coins/bitcoin");
 
   if (res.status !== 200) {
     throw new Error("Failed to fetch data");
