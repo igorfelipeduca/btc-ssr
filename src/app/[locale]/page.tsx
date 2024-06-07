@@ -38,22 +38,18 @@ export default async function InfoPage({
           <div className="mt-8">
             <div className="grid grid-cols-4 gap-4">
               {locales.map((locale: string, index: number) => (
-                <div
+                <a
                   className="py-2 px-4 rounded-full bg-zinc-900 border border-zinc-700 text-center w-full text-sm text-zinc-300"
                   key={index}
+                  href={`/${locale}`}
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   {locale}
-                </div>
+                </a>
               ))}
             </div>
           </div>
-
-          <h3 className={"text-lg text-zinc-500 font-medium mt-8"}>
-            Please, select one of the available locales and go to:{" "}
-            <span className="py-2 px-4 rounded-lg bg-zinc-900 border border-zinc-700 text-lg">
-              /{"{locale}"}
-            </span>
-          </h3>
         </div>
       </div>
     );
